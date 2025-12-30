@@ -26,7 +26,7 @@ jobs:
   deploy:
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
+      url: ${{https://xunw56291-maker.github.io/index%20-%20%E5%89%AF%E6%9C%AC.html}}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
